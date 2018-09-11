@@ -1,2 +1,2 @@
 # node-todo-api
-Todo project using MongoDB, MongoDB native driver 
+Todo project using MongoDB, MongoDB native driver, Mongoose ORM
