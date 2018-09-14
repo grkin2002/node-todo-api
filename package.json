@@ -2,7 +2,6 @@
   "name": "todo-api",
   "version": "1.0.0",
   "description": "Todo project using MongoDB, MongoDB native driver",
-  "main": "index.js",
   "scripts": {
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec \"npm run test\""
@@ -22,12 +21,10 @@
     "mongodb": "^2.2.5",
     "mongoose": "^4.13.17"
   },
-  "devDependencies":{
+  "devDependencies": {
     "expect": "^1.20.2",
     "mocha": "^3.5.3",
     "nodemon": "^1.10.2",
     "supertest": "^3.3.0"
   }
-
-
 }
